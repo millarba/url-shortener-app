@@ -29,6 +29,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="options-nav">Options<b class="caret"></b></a>
             <ul class="dropdown-menu">
+              <li><a href="/users/sign_out" id="sign_out_link">Sign Out</a></li>
               <% if current_user.nil? %>
                 <li><a href="/users/sign_up">Sign Up</a></li>
                 <li><a href="/users/sign_in">Sign In</a></li>
